@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+
+/* 基本色 */
+:root{
+    --white-color:#EEE9DA;
+    --base-color:#BDCDD6;
+    --accent-color:#93BFCF;
+    --darker-color:#6096B4;
+    --letter-color:#393E46;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Shippori Mincho B1', serif;
+    background-color: var(--white-color);
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* header */
+.headA{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headA h1{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.headA ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.headA li a{
+    flex: 1;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* top */
+.img_top{
+    width: 100%;
+}
+
+/* conB */
+.conB{
+    padding: 100px 20px;
+}
+
+.conB h2{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.kotori{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+.kotori .span{
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+.conB img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* conC */
+.conC{
+    padding-bottom: 50px;
+}
+
+.conC h2{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.conC p{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* conD */
+
+.conD{
+    margin: 0;
+    padding: 0;
+
+}
+.conD h2{
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.conD ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.conD ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.conD ul li{
+    text-align: center;
+    padding: 10px;
+}
+.conD ul li img{
+    width: 80%;
+}
+
+/* conE */
+.conD{
+    margin: 0;
+    padding: 150px 0px;
+
+}
+.conE h2{
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.conE ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.conE ul{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    
+}
+.conE ul li{
+    text-align: center;
+
+}
+.conE ul li img{
+    width: 70%;
+}
+
+/* conF */
+.conF{
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.conF h2{
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.conF ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.conF ul{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    
+}
+.conF ul li{
+    text-align: center;
+    padding: 20px;
+}
+.conF ul li img{
+    width: 70%;
+}
+
+.copyright{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.copyright p{
+    margin: 0;
+    padding: 30px 0;
+    font-size: 15px;
+}
+
+@media(max-width:599px){
+    .conD ul{
+        display: block;
+    }
+
+    .conE ul{
+        display: block;
+    }
+
+    .conF ul{
+        display: block;
+    }
+}
